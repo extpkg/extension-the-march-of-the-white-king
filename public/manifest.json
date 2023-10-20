@@ -1,0 +1,32 @@
+{
+  "manifest_version": "ext-v1",
+  "name": "The March of the White King",
+  "short_name": "The March of the White King",
+  "description": "Strategic battles, chess-inspired units, master tactics, and claim victory!",
+  "version": "1.0.0",
+  "author": "EXT, Inc.",
+  "icons": {
+    "128": "./assets/128.png",
+    "banner": "./assets/banner.png",
+    "background": "./assets/background.png"
+  },
+  "scripts": ["main.js"],
+  "modules": {
+    "runtime": {
+      "permissions": []
+    },
+    "tabs": {
+      "permissions": []
+    },
+    "windows": {
+      "permissions": []
+    },
+    "webviews": {
+      "permissions": []
+    },
+    "websessions": {
+      "permissions": [],
+      "optional_permissions": ["create.persistent"]
+    }
+  }
+}
