@@ -50,6 +50,9 @@ ext.runtime.onExtensionClick.addListener(async () => {
     window = await ext.windows.create({
       center: true,
       resizable: false,
+      fullscreenable: false,
+      maximizable: false,
+      fullscreen: false,
       title,
       icon: "./assets/128.png",
       darkMode: true,
