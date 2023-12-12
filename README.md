@@ -13,3 +13,6 @@ Strategic battles, chess-inspired units, master tactics, and claim victory!
 
 Run `npm run dev` to watch `src` and `public` directories and rebuild the
 project on changes
+
+## Source
+https://github.com/ArthurTui/the-march-of-the-white-king
